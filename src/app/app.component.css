@@ -4,7 +4,10 @@
   position: absolute;
   height: 560px;
   width: 100%;
-  background-size: cover;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%; 
+  background-size: 100% 100%;
 }
 /*
 Copyright Google LLC. All Rights Reserved.
