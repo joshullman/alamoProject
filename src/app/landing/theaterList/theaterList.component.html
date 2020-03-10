@@ -1,0 +1,22 @@
+<div class="section">
+  <div class="sectionHeader">Select Theater</div>
+  <div class="theaters">
+    <div
+      *ngFor="let theater of theaters"
+      class="button medium"
+      style="width: 176px;"
+      [class.selectedTheater]="theater.id === selectedTheaterId"
+      (click)="selectTheater(theater.id)"
+    >
+      <div class="buttonText">
+        {{ theater.name }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

@@ -1,0 +1,22 @@
+.theaters {
+  /* border: 1px solid red; */
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.theaters .button:hover {
+  background-color: #f0b323;
+  border: none;
+}
+
+.selectedTheater {
+  background-color: #f0b323;
+  border: none;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/

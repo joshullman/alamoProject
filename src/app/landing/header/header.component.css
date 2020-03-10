@@ -1,0 +1,35 @@
+#headerContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 2;
+}
+
+#headerArrow {
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+
+#headerImage {
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+
+#headerBackgroundContainer {
+  position: relative;
+  display: flex;
+  z-index: 0;
+}
+
+#headerBackground {
+  position: absolute;
+  width: 100%;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/

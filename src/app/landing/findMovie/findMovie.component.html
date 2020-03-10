@@ -1,0 +1,30 @@
+<div>
+  <app-header></app-header>
+  <div class="cardContainer">
+    <div class="card">
+      <div class="cardTitle">Find a movie</div>
+      <div class="cardBody">
+        <theaterList
+          class="container"
+          [theaters]="theaters"
+          [selectedTheaterId]="selectedTheaterId"
+          [selectTheater]="selectTheater"
+        ></theaterList>
+        <filmList
+          class="container"
+          *ngIf="selectedTheater"
+          [selectedTheater]="selectedTheater"
+          [selectedFilmId]="selectedFilmId"
+          [films]="selectedTheater.films"
+          [selectFilm]="selectFilm"
+        ></filmList>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

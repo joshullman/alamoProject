@@ -1,0 +1,47 @@
+.selectedTheater {
+  color: #090909;
+}
+
+.selectedAlt {
+  color: #f0b323;
+  background-color: #090909;
+  fill: #f0b323;
+  fill-opacity: 1;
+}
+
+.films {
+  display: flex;
+  flex-direction: column;
+}
+
+.films .button:hover {
+  color: #f0b323;
+  fill: #f0b323;
+  fill-opacity: 1;
+  background-color: #090909;
+}
+
+.filmIcon {
+  fill-opacity: inherit;
+  fill: inherit;
+}
+
+.filmText {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: calc(100% - 24px);
+  line-height: 22px;
+  color: inherit;
+}
+
+.withIconLarge {
+  padding-right: 12px;
+  width: calc(100% - 16px);
+}
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/
